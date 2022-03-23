@@ -22,7 +22,7 @@ public class RandomStringsController {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    @Operation(summary = "Returns the adjective-noun pair",
+    @Operation(summary = "Returns the adjective-noun pairg",
             description = "The pair of one random adjective and one random noun is returned as an array.")
     @Counted
     public String[] getRandomStrings() {
